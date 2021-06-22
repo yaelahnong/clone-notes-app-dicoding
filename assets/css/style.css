@@ -1,0 +1,108 @@
+@import 'fonts.css';
+
+/* Global Class */
+
+:root {
+	--bg-black: #000;
+}
+
+.bg-black {
+	background-color: var(--bg-black);
+}
+
+.bg-black:hover {
+	background-color: var(--bg-black);
+}
+
+/* Custom CSS */
+
+body {
+	font-family: 'open_sansregular', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+/* Floating Action Button */
+.fa-btn {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+.fa-btn a {
+	padding: 10px;
+}
+
+.fa-btn span {
+	margin-left: 10px;
+}
+/* end of Floating Action Button */
+
+/* Card */
+.card {
+	height: 16rem;
+	border-radius: 0.75rem;
+	overflow: hidden;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: scale(1.015);
+}
+
+.card-title {
+	font-size: 1.5em;
+}
+
+.card-subtitle {
+	font-size: 0.8em;
+}
+
+.card-footer {
+	background-color: #fff;
+	border: 0;
+	padding-bottom: 1rem;
+}
+
+.tags {
+	display: flex;
+}
+
+.__tag {
+	border: 1px solid #999;
+	border-radius: 0.25rem;
+	padding: 5px;
+	font-size: 0.8em;
+	margin-right: 5px;
+}
+/* end of Card */
+
+/* add note */
+.note-form input,
+.note-form textarea {
+	border: 0;
+}
+.note-form input:focus,
+.note-form textarea:focus {
+	box-shadow: none;
+}
+
+.input-title input,
+.note-form button,
+.input-title h3 {
+	font-family: 'open_sansbold', sans-serif;
+}
+
+.input-title input,
+.input-title h3 {
+	font-size: 3.6em;
+	font-weight: bold;
+}
+
+/* end of add note */
+
+/* detail note */
+/* end of detail note */
